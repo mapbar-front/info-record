@@ -1,0 +1,35 @@
+{
+  "name": "info-record",
+  "version": "1.0.0",
+  "description": "This is a browser extension to save account information",
+  "main": "mainfest",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbar-front/info-record.git"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "mapbar_front",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapbar-front/info-record/issues"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "homepage": "https://github.com/mapbar-front/info-record#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0",
+    "ghooks": "^2.0.4",
+    "git-cz": "^4.3.1"
+  }
+}
