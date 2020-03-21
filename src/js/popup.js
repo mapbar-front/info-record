@@ -9,19 +9,19 @@ for (let i = 0; i < list.length;i++) {
                 <h3 class="panel-title">${list[i].name}</h3>
             </div>
             <div class="panel-body">
-                <div class="input-group">
+                <div class="input-group input-group-sm">
                     <span style="width: 100px" class="input-group-addon">地址</span>
-                    <input type="text" class="form-control" placeholder="url" value="${list[i].url}" aria-describedby="basic-addon1">
+                    <input style="width: 300px" type="text" class="form-control" placeholder="url" value="${list[i].url}" aria-describedby="basic-addon1">
                 </div>
 
-                <div class="input-group">
+                <div class="input-group input-group-sm">
                     <span style="width: 100px" class="input-group-addon">账户</span>
-                    <input type="text" class="form-control" placeholder="username" value="${list[i].username}" aria-describedby="basic-addon1">
+                    <input style="width: 300px" type="text" class="form-control" placeholder="username" value="${list[i].username}" aria-describedby="basic-addon1">
                 </div>
 
-                <div class="input-group">
+                <div class="input-group input-group-sm">
                     <span style="width: 100px" class="input-group-addon">密码</span>
-                    <input type="text" class="form-control" placeholder="password" value="${list[i].password}" aria-describedby="basic-addon1">
+                    <input style="width: 300px" type="text" class="form-control" placeholder="password" value="${list[i].password}" aria-describedby="basic-addon1">
                 </div>
             </div>
         </div>`
